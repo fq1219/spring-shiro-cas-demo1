@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cas-client1" />
+        <module name="cas-client2" />
+        <module name="spring-shiro-cas" />
+        <module name="springshiro" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.7">
+      <module name="cas-client1" target="1.8" />
+      <module name="cas-client2" target="1.8" />
+      <module name="spring-shiro-cas" target="1.8" />
+      <module name="spring-shiro-cas-demo1" target="1.5" />
+      <module name="springshiro" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

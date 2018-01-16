@@ -12,6 +12,7 @@
         <module>springshiro</module>
         <module>cas-client1</module>
         <module>cas-client2</module>
+        <module>spring-shiro-cas</module>
     </modules>
 
 
